@@ -16,6 +16,7 @@ pkg install -y \
     curl \
     fish \
     git \
+    mosh \
     rsync \
     sudo \
     tmux

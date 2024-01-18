@@ -17,5 +17,6 @@ apt-get install -y \
     curl \
     fish \
     git \
+    mosh \
     rsync \
     tmux
