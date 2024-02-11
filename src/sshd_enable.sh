@@ -1,7 +1,7 @@
 #!/bin/sh
-
 set -eu
 
+INSTALL_ONLY=${INSTALL_ONLY:=""}
 _install_only(){
     if [ -n "$INSTALL_ONLY" ] ; then
         echo "WARNING: INSTALL_ONLY flag set, exiting."
