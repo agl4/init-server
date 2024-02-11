@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eu
+set -euxv
 
 INSTALL_ONLY=${INSTALL_ONLY:=""}
 if [ -n "$INSTALL_ONLY" ] ; then
