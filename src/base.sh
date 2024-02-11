@@ -8,6 +8,10 @@ INSTALL_FAST=${INSTALL_FAST:=""}
 if [ -n "$INSTALL_FAST" ] ; then
     echo "WARNING: INSTALL_FAST variable set, not doing updates."
 fi
+INSTALL_ONLY=${INSTALL_ONLY:=""}
+if [ -n "$INSTALL_ONLY" ] ; then
+    echo "WARNING: INSTALL_ONLY variable set, not doing service restarts."
+fi
 
 echo "Installing packages..."
 case $(uname -s) in
