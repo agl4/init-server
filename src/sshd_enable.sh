@@ -12,8 +12,8 @@ fi
 echo "Enable sshd..."
 case $(uname -s) in
     Linux)
-        systemctl enable sshd
-        systemctl restart sshd
+        sudo systemctl enable sshd
+        sudo systemctl restart sshd
         ;;
     FreeBSD)
         sysrc sshd_enable="YES"
