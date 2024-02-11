@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Make install
-        run: sudo make install
+        run: make install
         env:
           INSTALL_FAST: 1
           INSTALL_ONLY: 1
