@@ -18,3 +18,4 @@ jobs:
         run: sudo make install
         env:
           INSTALL_FAST: 1
+          INSTALL_ONLY: 1

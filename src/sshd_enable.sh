@@ -1,6 +1,13 @@
 #!/bin/sh
 
-set -eu
+set -euxv
+
+INSTALL_ONLY=${INSTALL_ONLY:=""}
+if [ -n "$INSTALL_ONLY" ] ; then
+    echo "WARNING: INSTALL_ONLY flag set, exiting."
+    exit 0
+fi
+
 
 echo "Enable sshd..."
 case $(uname -s) in

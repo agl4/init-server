@@ -16,6 +16,7 @@ case $(uname -s) in
         case $ID in
             ubuntu) bash "$DIR/base_${ID}.sh" ;;
             fedora) bash "$DIR/base_${ID}.sh" ;;
+            opensuse*) bash "$DIR/base_${ID}.sh" ;;
             *) echo "Unsupported OS."
                exit 1
                ;;

@@ -8,7 +8,7 @@ if [ -z "$INSTALL_FAST" ] ; then
     sudo dnf upgrade -y
 fi
 
-dnf install -y \
+sudo dnf install -y \
     bash \
     curl \
     fish \
