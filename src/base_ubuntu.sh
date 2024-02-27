@@ -18,5 +18,6 @@ sudo apt-get install -y \
     fish \
     git \
     mosh \
+    openssh-server \
     rsync \
     tmux
