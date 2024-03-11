@@ -9,6 +9,14 @@ Supports:
 - Fedora 38-40
 - FreeBSD
 
+## Prerequisites
+
+### FreeBSD
+
+```shell
+pkg install -y git automake bash
+```
+
 ## Install
 
 To install the environment run the following:
