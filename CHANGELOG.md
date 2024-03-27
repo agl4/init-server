@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/agl4/init-server/compare/v1.0.0...v1.0.1) (2024-03-27)
+
+
+### Bug Fixes
+
+* Fix FreeBSD install issues and documentation ([75f20ee](https://github.com/agl4/init-server/commit/75f20eeb5ccd0ad95453345a9d126db2fc039bff))
+
 ## 1.0.0 (2024-02-27)
 
 
